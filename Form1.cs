@@ -41,7 +41,7 @@ namespace Graphics_in_CSharp
 
 
             //canvas.DrawLine(redPen, 0, 0, this.ClientSize.Width, this.ClientSize.Height);
-            canvas.FillRectangle(myHatchBrush, 10, 10, 150, 150);
+            canvas.FillRectangle(redBrush, 10, 10, 150, 150);
         }
 
         private void FormGraphics_Resize(object sender, EventArgs e)
